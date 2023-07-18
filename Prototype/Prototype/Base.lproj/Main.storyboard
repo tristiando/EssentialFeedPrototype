@@ -14,7 +14,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="M3F-yJ-GDj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="separatorColor" red="0.0" green="0.45882352939999999" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="lTd-jy-f4c">
                             <rect key="frame" x="0.0" y="0.0" width="414" height="16"/>
@@ -111,6 +111,7 @@ Location</string>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="descriptionLabel" destination="vwW-Nj-tOp" id="o81-Fk-2rc"/>
+                                    <outlet property="feedImageContainer" destination="CE0-4L-eAd" id="7rP-Vc-xxa"/>
                                     <outlet property="feedImageView" destination="M2c-zI-hvB" id="Uja-cn-7oX"/>
                                     <outlet property="locationContainer" destination="SYB-KN-P1H" id="BxL-tr-j3C"/>
                                     <outlet property="locationLabel" destination="taR-Su-Du6" id="0TH-cY-KeU"/>
